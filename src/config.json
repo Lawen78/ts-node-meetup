@@ -1,0 +1,17 @@
+{
+  "development": {
+    "url": "postgres://postgres:postgres@localhost:5432/lorenzo",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "url": "postgres://vaahsepd:Ed2jkFCQaV7skB4If-FGKw9Pj0ZQOxbJ@horton.elephantsql.com:5432/vaahsepd",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "url": "",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
