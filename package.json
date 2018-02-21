@@ -5,19 +5,21 @@
   "main": "server.js",
   "scripts": {
     "start": "ts-node src/server.ts",
-    "start:dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/server.ts",
+    "start:dev": "nodemon -V -w . --ext \".ts\" --ignore \".spec.ts\" --exec \"npm run start",
     "build": "tsc",
     "build:watch": "tsc -w",
     "clean": "rm -rf build"
   },
   "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.4.6",
+    "@types/sequelize": "^4.27.6",
     "nodemon": "^1.15.1",
     "ts-node": "^5.0.0",
     "typescript": "^2.7.2"
   },
   "dependencies": {
-    "@types/node": "^9.4.6",
-    "@types/sequelize": "^4.27.6",
+    "express": "^4.16.2",
     "pg": "^7.4.1",
     "sequelize": "^4.33.4"
   },
