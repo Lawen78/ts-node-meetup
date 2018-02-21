@@ -16,7 +16,7 @@ export const conf: {
       "operatorsAliases": false
     },
     "web": {
-      "url": "postgres://vaahsepd:Ed2jkFCQaV7skB4If-FGKw9Pj0ZQOxbJ@horton.elephantsql.com:5432/vaahsepd",
+      "url": "postgres://vaahsepd:psw@horton.elephantsql.com:5432/vaahsepd",
       "dialect": "postgres",
       "operatorsAliases": false
     },
